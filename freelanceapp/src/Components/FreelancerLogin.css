@@ -1,0 +1,30 @@
+.formbg-login {
+    background: rgb(228 240 245 / 40%);
+    margin: 0rem auto 0 auto;
+    width: 100%;
+    max-width: 603px;
+    border-radius: 6px;
+}
+.padding-horizontal--48-login {
+    padding: 122px;
+}
+.padding-bottom--15-login {
+    padding-bottom: 31px;
+    font-weight: 450;
+    font-family: M PLUS Rounded\ 1c,sans-serif;
+    text-align: center;
+    margin-top: 46px;
+    margin-bottom: 6px;
+    opacity: .7;
+}
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
