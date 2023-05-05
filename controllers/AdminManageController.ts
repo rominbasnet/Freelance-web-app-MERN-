@@ -4,7 +4,7 @@ import {Job} from '../models';
 export const AdminLogin = async(req, res, next) =>{
   const {email, password} = req.body;
 		try{
-			if(email === "rominbasnet56@gmail.com" && password === "kryptonite@2056"){
+			if(email === "admin123@gmail.com" && password === "kryptonite@2056"){
 				return res.json({isAdmin: true, status: 200});
         console.log("sdfsad")
 			}
